@@ -1,43 +1,109 @@
 <!DOCTYPE html>
+
 <html lang="es">
+<link rel="stylesheet" href="estilopersonal.css">
+
+<head>
+
+</head>
 
 <body background="images/bg.jpg">
-    <div align=center>
-        <h2>DEJA TUS DATOS PARA CONTACTARTE</h2>
-        <label>Nombre:</label>
-        <input maxlength="50" name="nombre" required size="50" type="text" autofocus placeholder="Escribe tu nombre" />
-        <br>
-        <label>Email:</label>
-        <input name="email" required type="email" placeholder="Escribe tu email" />
-        <br>
-        <label>Teléfono</label>
-        <input name="telefono" pattern="[0-9]{9}" required type="tel" placeholder="XXXXXXXXX" />
-        <br>
-        <label form="cars">Seleccionar su sexo:</label>
-        <select name="Seleccione su sexo" required>
-    <option value="Masculino">Masculino</option>
-    <option value="Femenino">Femenino</option>
-    <option value="Prefiero no decirlo">Prefiero no decirlo</option>
-</div>
-</select>
-        <br>
-        <br> Puedes escribir aquí tus observaciones...</textarea>
-        <input type="submit" value="Enviar" />
-        <textarea cols="80" name="observaciones" rows="8"></textarea>
-        <h1>Puedes contactarme en mis redes sociales </h1>
-        <a href="https://www.facebook.com/Carlos.Daniel.VLL"> Facebook personal Carlos Daniel Vargas Llamo</a>
-        <img src="images/fb.png" width="50" height="50"></img>
-        <br>
-        <br>
-        <a href="https://wa.link/okhrzz">Whatsapp personal Carlos Daniel Vargas Llamo</a>
-        <img src="images/wp.png" width="50" height="50">
-        <br>
-        <br>
-        <div align=center>
-            <a href="home.html">Go back</a>
+
+    <div class="prueba">
+        <div class="navegacion">
+            <nav>
+                <ul class="etinav">
+                    <li class="lista1"><a href="home.html">HOME</a></li>
+                    <li class="lista1"><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="contact.html">CONTACT ME</a></li>
+                </ul>
+            </nav>
+
         </div>
+        <div class="busqueda">
+
+        </div>
+    </div>
+
+
+    <div id="principal">
+        <article>
+            <section>
+                <div align=center>
+                    <h2 class="titulo2">Deja tus datos para contactarte</h2>
+                    <label>Nombre:</label>
+                    <input maxlength="50" name="nombre" required size="50" type="text" autofocus placeholder="Escribe tu nombre" />
+                    <br>
+                    <label>Email:</label>
+                    <input name="email" required type="email" placeholder="Escribe tu email" />
+                    <br>
+                    <label>Teléfono</label>
+                    <input name="telefono" pattern="[0-9]{9}" required type="tel" placeholder="XXXXXXXXX" />
+                    <br>
+                    <label form="cars">Seleccionar su sexo:</label>
+                    <select name="Seleccione su sexo" required>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+            </div>
+            </select>
+                    <br>
+                    <br> Puedes escribir aquí tus observaciones...</textarea>
+                    <input type="submit" value="Enviar" />
+                    <textarea cols="80" name="observaciones" rows="8"></textarea>
+                    <h1>Puedes contactarme en mis redes sociales </h1>
+                    <a href="https://www.facebook.com/Carlos.Daniel.VLL"> Facebook personal Carlos Daniel Vargas Llamo</a>
+                    <img src="images/fb.png" width="50" height="50"></img>
+                    <br>
+                    <br>
+                    <a href="https://wa.link/okhrzz">Whatsapp personal Carlos Daniel Vargas Llamo</a>
+                    <img src="images/wp.png" width="50" height="50">
+                    <br>
+                    <br>
+
+            </section>
+        </article>
+        <aside class="lateralderecho">
+            <div class="titulo">
+                <h3>Relacionados</h3>
+
+            </div>
+            <section class="sobremi">
+                <ul>
+                    <li><a href="https://www.facebook.com/Carlos.Daniel.VLL/photos">Haz click aquí para más fotos</a></li>
+                    <br>
+                    <li>
+                        <a href="https://www.facebook.com/NeaBit/">Sigue la página de mi empresa</a>
+                    </li>
+                </ul>
+            </section>
+            <h4 align=center>Datos extra sobre mi</h4>
+            <section class="seccion2" align=center>
+                <br>
+                <img src="images/familia.jpg" class="imagen1" width="50%" height="50%">
+                <p>Soy fanático de la fotografía</p>
+            </section>
+            <section class="seccion2" align=center>
+                <br>
+                <img src="images/bb.jpg" class="imagen1" width="50%" height="50%">
+                <p>Soy un deportista destacado</p>
+            </section>
+            <section class="seccion2" align=center>
+                <br>
+                <img src="images/amo.jpg" class="imagen1" width="50%" height="50%">
+                <p>Amo la vida y la valoro</p>
+            </section>
+        </aside>
+        </div>
+
+        <div id="footer">
+            <footer class="pie">
+                <h4>Página estilizada para el laboratorio 3 del curso de ingeniería web</h4>
+                <address>Copyright © 2020 Carlos Daniel Vargas Llamo </address>
+            </footer>
+        </div>
+
+
 </body>
-
-
 
 </html>

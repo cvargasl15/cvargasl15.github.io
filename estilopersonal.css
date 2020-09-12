@@ -1,0 +1,131 @@
+header {
+    height: 40px;
+    background-color: gray;
+    margin-top: -40px;
+    text-emphasis: center;
+    width: 100%;
+    padding: 1% 0% 2% 0%;
+}
+
+.titulo2 {
+    margin-top: -3%;
+    font-family: 'Caveat', cursive;
+    font-size: 300%;
+    color: skyblue;
+    text-shadow: 0.05em 0.05em #333;
+}
+
+.tituloprincipal p {
+    background-color: skyblue;
+    margin-top: 5px;
+    font-family: 'Caveat', cursive;
+    font-size: 300%;
+    color: white;
+    text-shadow: 0.05em 0.05em #333;
+}
+
+.prueba {
+    border-style: solid;
+    border-radius: 20%;
+    border-color: rgb(144, 219, 248);
+    box-shadow: 0 0 20px steelblue;
+}
+
+.etinav>li>a {
+    text-decoration: none;
+}
+
+.lista1 {
+    float: left;
+}
+
+nav li a:hover {
+    background-color: skyblue;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav {
+    font-family: 'Montserrat';
+}
+
+.navegacion {
+    width: 70%;
+}
+
+.busqueda {
+    background-color: thistle;
+    width: 30%;
+}
+
+nav li {
+    font-size: 20px;
+    display: inline-block;
+    padding: 1% 5% 1% 1%;
+}
+
+aside {
+    background-color: skyblue;
+}
+
+#principal {
+    font-family: 'Patrick Hand', cursive;
+    background: skyblue;
+    margin-top: 2%;
+    overflow: hidden;
+    border-color: skyblue;
+}
+
+article {
+    border: 5px inset;
+    background: white;
+    float: left;
+    min-height: 500px;
+    padding: 20px;
+    text-align: justify;
+    width: 68%;
+}
+
+.lateralderecho {
+    margin-top: -10px;
+    float: right;
+    width: 290px;
+}
+
+.lateralderecho .titulo {
+    background: #1d1d1d;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.sobremi {
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: rgb(243, 183, 114);
+    height: 80px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.seccion2 {
+    background-color: whitesmoke;
+    border-radius: 20%;
+}
+
+.imagen1 {
+    box-shadow: 0 0 20px steelblue;
+}
+
+#footer .pie {
+    background-color: gray;
+    color: white;
+    float: center;
+    text-align: center/*o left*/
+    ;
+    box-shadow: 0 0 10px skyblue;
+    border-style: solid;
+}
