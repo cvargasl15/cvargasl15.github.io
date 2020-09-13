@@ -123,7 +123,7 @@ article {
 #footer .pie {
     background-color: gray;
     color: white;
-    float: center;
+    
     text-align: center/*o left*/
     ;
     box-shadow: 0 0 10px skyblue;
