@@ -1,0 +1,77 @@
+/*Estilos generales*/
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.nav {
+    font-family: serif;
+    background-color: #151515;
+    padding: 5px;
+    margin-bottom: 1em;
+}
+
+.nav_logo {
+    width: 3em;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.nav_tittle {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 50px;
+    color: #ffffff;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+
+.nav_tittle a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_tittle a:hover {
+    color: skyblue
+}
+
+.nav_ul {
+    list-style: none;
+    display: inline-block;
+    margin-left: 70wv;
+}
+
+.nav_li {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.nav_li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.nav_li a:hover {
+    color: #ff8000;
+}
+
+.nav_tittle:hover {
+    color: #81f781;
+}
+
+.contet {
+    background-color: #ffffff;
+    margin: 1em;
+    min-height: 77.6vh;
+}

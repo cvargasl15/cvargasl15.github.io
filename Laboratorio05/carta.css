@@ -1,0 +1,74 @@
+.main {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.from {
+    line-height: 60%;
+    width: 30%;
+    margin-left: 70%;
+    font-style: italic;
+    text-align: right;
+}
+
+.from whofrom {
+    width: 20%;
+    margin-left: 80%;
+    font-weight: bold;
+}
+
+.strong {
+    float: left;
+    margin-left: 55%;
+}
+
+.stronge {
+    float: left;
+    margin-left: 25%;
+}
+
+.to {
+    line-height: 60%;
+    margin-top: 3%;
+    width: 20%;
+    margin-right: 80%;
+    font-style: italic;
+}
+
+.re {
+    font-size: 180%;
+    margin-top: 3%;
+}
+
+.re p {
+    font-weight: 900;
+}
+
+.tittles {
+    font-size: 150%;
+    margin-top: 3%;
+    font-weight: 900;
+}
+
+.pexoin {
+    margin-top: -1%;
+    margin-left: 10%;
+}
+
+.content {}
+
+.foot {
+    margin-top: 12%;
+}
+
+.pfoot {
+    float: left;
+    display: inline-block;
+}
+
+.foot address {
+    margin-left: 35%;
+    margin-top: 3.25%;
+}
