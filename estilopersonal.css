@@ -2,7 +2,7 @@ header {
     height: 40px;
     background-color: gray;
     margin-top: -40px;
-    text-emphasis: center;
+    
     width: 100%;
     padding: 1% 0% 2% 0%;
 }
@@ -73,7 +73,7 @@ aside {
     background: skyblue;
     margin-top: 2%;
     overflow: hidden;
-    border-color: skyblue;
+    border-color: white;
 }
 
 article {
@@ -123,7 +123,7 @@ article {
 #footer .pie {
     background-color: gray;
     color: white;
-    float: center;
+    
     text-align: center/*o left*/
     ;
     box-shadow: 0 0 10px skyblue;
