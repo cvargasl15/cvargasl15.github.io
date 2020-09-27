@@ -2,7 +2,6 @@ header {
     height: 40px;
     background-color: gray;
     margin-top: -40px;
-    
     width: 100%;
     padding: 1% 0% 2% 0%;
 }
@@ -13,6 +12,11 @@ header {
     font-size: 300%;
     color: skyblue;
     text-shadow: 0.05em 0.05em #333;
+}
+
+.tituloprincipal {
+    display: inline-block;
+    margin-bottom: 5%;
 }
 
 .tituloprincipal p {
@@ -39,14 +43,15 @@ header {
     float: left;
 }
 
-nav li a:hover {
-    background-color: skyblue;
+.nav-item :hover {
+    background-color: orange;
     border-radius: 5px;
-    color: white;
+    color: skyblue;
 }
 
 .nav {
-    font-family: 'Montserrat';
+    color: skyblue;
+    /*font-family: 'Montserrat';*/
 }
 
 .navegacion {
@@ -68,12 +73,14 @@ aside {
     background-color: skyblue;
 }
 
-#principal {
+.principal {
     font-family: 'Patrick Hand', cursive;
     background: skyblue;
     margin-top: 2%;
     overflow: hidden;
     border-color: white;
+    text-align: center;
+    display: block;
 }
 
 article {
@@ -87,7 +94,8 @@ article {
 }
 
 .lateralderecho {
-    margin-top: -10px;
+    margin-top: 5%;
+    margin-right: 5%;
     float: right;
     width: 290px;
 }
@@ -120,12 +128,49 @@ article {
     box-shadow: 0 0 20px steelblue;
 }
 
-#footer .pie {
-    background-color: gray;
-    color: white;
-    
-    text-align: center/*o left*/
-    ;
-    box-shadow: 0 0 10px skyblue;
-    border-style: solid;
+.footer {
+    background-color: rgb(32, 63, 75);
+    color: whitesmoke;
+}
+
+.slide {
+    margin-top: 10px;
+}
+
+.slide img {
+    height: 80vh;
+}
+
+.icon-home {
+    font-size: 100%;
+}
+
+.icon-newspaper {
+    font-size: 100%;
+}
+
+.icon-database {
+    font-size: 100%;
+}
+
+.icon-clipboard {
+    font-size: 100%;
+}
+
+.atras {
+    margin-right: 5%;
+}
+
+.nav-item {
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .post .thumb {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
 }

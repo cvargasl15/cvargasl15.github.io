@@ -1,19 +1,117 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="estilopersonal.css">
+
 
 <head>
+
+
+    <link rel="stylesheet" href="estilopersonal.css">
+
+    <link rel="stylesheet" href="styles/icons/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="Barra lateral/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Barra lateral/css/normalize.css">
+    <link rel="stylesheet" href="Barra lateral/style.css">
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 </head>
-    <br>
+<br>
+
+
+
+
 <Body background="images/bg.jpg">
-    <div class=tituloprincipal>
-        <header align=CENTER>
 
-            <p>BIENVENIDOS A MI PÁGINA WEB</p>
-
-        </header>
+    <div class="social-body">
+        <ul>
+            <li class="facebook"><a href="https://www.facebook.com/Carlos.Daniel.VLL" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li class="whatsapp"><a href="https://wa.link/okhrzz" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+            <li class="instagram"><a href="https://www.instagram.com/carlos_daniel_v/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
     </div>
-    <br>
+
+    <!--<div class=tituloprincipal> -->
+    <header class="tituloprincipal" align=CENTER>
+
+        <p>BIENVENIDOS A MI PÁGINA WEB</p>
+
+    </header>
+    <!--</div>-->
+    <div>
+        <!---->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <Span>
+                            <a class="icon-undo2"></a>
+                            <a class="nav-link" href="index.html">Index</a>
+                        </a>
+                            </Span>
+                    </li>
+                    <li class="nav-item active">
+                        <Span>
+                        <a class="icon-home"></a>
+                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span>
+                        </a>
+                        </Span>
+                    </li>
+                    <li class="nav-item">
+                        <Span>
+                            <a class="icon-newspaper"></a>
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </a>
+                            </Span>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <Span>
+                            <a class="icon-database"></a>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Más datos
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=NE6pANWJGuU" target="blank">Mi canción favorita</a>
+                                <div class="dropdown-divider"></div>
+    
+                                <a class="dropdown-item" href="https://www.google.com/search?q=cj7&rlz=1C1OKWM_esPE866PE866&oq=cj7&aqs=chrome..69i57j46l2j0l5.766j0j4&sourceid=chrome&ie=UTF-8" target="blank">Mi película favorita</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://cocina-casera.com/tallarines-al-pesto/"target="blank" >Mi comida favorita</a>
+                            </div>
+                            </Span>
+
+
+                    </li>
+                    <li class="nav-item">
+                        <Span>
+                            <a class="icon-clipboard"></a>
+                            <a class="nav-link disabled" href="contact.html">Contact me</a>
+                        </a>
+                            </Span>
+
+                    </li>
+
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <!--
     <div class="prueba">
         <div class="navegacion">
             <nav>
@@ -26,22 +124,51 @@
         </div>
         <div class="busqueda">
         </div>
-    </div>
-    <div id="principal">
-        <article>
+        
+    </div>-->
+
+
+    <div class="principal">
+        <article class="post col-md-8">
             <section>
                 <div align=center>
                     <h2>Mi nombre es Carlos Daniel Vargas LLamo, tengo 22 años de edad. Me encanta hacer deporte y dedicarme a hacer crecer mi idea de negocio.</h2>
-                    <img src="images/a.jpg" class="imagen1" width="500" height="500">
-                    <br>
-                    <q>Yo en una iglesia en la ciudad de Stamford</q>
-                    <h2> Idiomas y nivel:</h2>
                     <br>
                 </div>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/c1.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/c2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/c3.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <br>
             </section>
             <section>
                 <div align=center>
-                    <img src="images/ingles.jpg" class="imagen1" width="200" height="100">
+                    <h2> Idiomas y nivel:</h2>
+                    <br>
+                    <img src="images/ingles.jpg " class="imagen1 " width="200 " height="100 ">
                     <br>
                     <h3>inglés, intermedio.</h3>
                     <h2> Habilidades informáticas: </h2>
@@ -51,7 +178,7 @@
             <section>
                 <div align=center>
 
-                    <img src="images/p.jpg" class="imagen1" width="200" height="100">
+                    <img src="images/p.jpg " class="imagen1 " width="200 " height="100 ">
                     <h3>conocimientos en lenguajes de programación como java, c #, y desarrollo de aplicaciones android, Excel, Word, Power Point, edición de video. </h3>
                     <br>
                 </div>
@@ -60,7 +187,7 @@
                 <div align=center>
                     <h2> Premios especiales / Honores / Certificaciones:</h2>
                     <br>
-                    <img src="images/premio.jpg" class="imagen1" width="200" height="100">
+                    <img src="images/premio.jpg " class="imagen1 " width="200 " height="100 ">
                     <br>
                     <h3>Basketbal MVP 2018 en la liga de mi ciudad, campeona inter-docente de baloncesto en mi universidad.</h3>
                     <br>
@@ -68,44 +195,65 @@
             </section>
 
         </article>
-        <aside class="lateralderecho">
-            <div class="titulo">
-                <h3>Relacionados</h3>
 
-            </div>
-            <section class="sobremi">
-                <ul>
-                    <li><a href="https://www.facebook.com/Carlos.Daniel.VLL/photos">Haz click aquí para más fotos</a></li>
+
+        <aside class="cold-md-3 hidden-xs hidden-sm ">
+            <div class="lateralderecho ">
+                <div class="titulo ">
+                    <h3>Relacionados</h3>
+
+                </div>
+                <section class="sobremi ">
+                    <ul>
+                        <li><a href="https://www.facebook.com/Carlos.Daniel.VLL/photos ">Haz click aquí para más fotos</a></li>
+                        <br>
+                        <li>
+                            <a href="https://www.facebook.com/NeaBit/ ">Sigue la página de mi empresa</a>
+                        </li>
+                    </ul>
+                </section>
+                <h4 align=center>Datos extra sobre mi</h4>
+                <section class="seccion2 " align=center>
                     <br>
-                    <li>
-                        <a href="https://www.facebook.com/NeaBit/">Sigue la página de mi empresa</a>
-                    </li>
-                </ul>
-            </section>
-            <h4 align=center>Datos extra sobre mi</h4>
-            <section class="seccion2" align=center>
-                <br>
-                <img src="images/familia.jpg" class="imagen1" width="50%" height="50%">
-                <p>Soy fanático de la fotografía</p>
-            </section>
-            <section class="seccion2" align=center>
-                <br>
-                <img src="images/bb.jpg" class="imagen1" width="50%" height="50%">
-                <p>Soy un deportista destacado</p>
-            </section>
-            <section class="seccion2" align=center>
-                <br>
-                <img src="images/amo.jpg" class="imagen1" width="50%" height="50%">
-                <p>Amo la vida y la valoro</p>
-            </section>
+                    <img src="images/familia.jpg " class="imagen1 " width="50% " height="50% ">
+                    <p>Soy fanático de la fotografía</p>
+                </section>
+                <section class="seccion2 " align=center>
+                    <br>
+                    <img src="images/bb.jpg " class="imagen1 " width="50% " height="50% ">
+                    <p>Soy un deportista destacado</p>
+                </section>
+                <section class="seccion2 " align=center>
+                    <br>
+                    <img src="images/amo.jpg " class="imagen1 " width="50% " height="50% ">
+                    <p>Amo la vida y la valoro</p>
+                </section>
+            </div>
         </aside>
     </div>
-    <div id="footer">
-        <footer class="pie">
-            <h4>Página estilizada para el laboratorio 3 del curso de ingeniería web</h4>
+
+    <footer class="container ">
+
+        <div class="co-xs-6 ">
+            <h4>Footer actualizado para el laboratorio 6 con Boostrap del curso de ingeniería web</h4>
             <address>Copyright © 2020 Carlos Daniel Vargas Llamo </address>
-        </footer>
-    </div>
+        </div>
+
+        <div class="col-xs-6 ">
+            <ul>
+                <li><a href="about.html">About  Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+
+            </ul>
+        </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
 </Body>
 
 </html>

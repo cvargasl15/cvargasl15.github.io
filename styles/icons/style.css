@@ -1,55 +1,54 @@
 @font-face {
-    font-family: 'icomoon';
-    src: url('fonts/icomoon.eot?wk8wue');
-    src: url('fonts/icomoon.eot?wk8wue#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?wk8wue') format('truetype'), url('fonts/icomoon.woff?wk8wue') format('woff'), url('fonts/icomoon.svg?wk8wue#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?owqclc');
+  src:  url('fonts/icomoon.eot?owqclc#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?owqclc') format('truetype'),
+    url('fonts/icomoon.woff?owqclc') format('woff'),
+    url('fonts/icomoon.svg?owqclc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-home:before {
-    content: "\e900";
+  content: "\e900";
 }
-
 .icon-newspaper:before {
-    content: "\e904";
+  content: "\e904";
 }
-
 .icon-database:before {
-    content: "\e964";
+  content: "\e964";
 }
-
+.icon-undo2:before {
+  content: "\e967";
+}
 .icon-clipboard:before {
-    content: "\e9b8";
+  content: "\e9b8";
 }
-
 .icon-google:before {
-    content: "\ea88";
+  content: "\ea88";
 }
-
 .icon-facebook:before {
-    content: "\ea90";
+  content: "\ea90";
 }
-
 .icon-twitter:before {
-    content: "\ea96";
+  content: "\ea96";
 }
-
 .icon-pinterest:before {
-    content: "\ead1";
+  content: "\ead1";
 }
