@@ -1,12 +1,8 @@
 .social {
     position: fixed;
-    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
     left: 0%;
-    /* Establecemos la barra en la izquierda */
     top: 200px;
-    /* Bajamos la barra 200px de arriba a abajo */
     z-index: 2000;
-    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
 }
 
 .social ul {
@@ -22,7 +18,6 @@
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-    /* Establecemos una transición a todas las propiedades */
 }
 
 .social ul li .icon-facebook {
@@ -42,7 +37,7 @@
 }
 
 .social ul li a:hover {
-    background: #000;
+    background: gray;
     /* Cambiamos el fondo cuando el usuario pase el mouse */
     padding: 10px 30px;
     /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
