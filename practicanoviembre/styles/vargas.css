@@ -1,0 +1,70 @@
+div {
+    /*background-color: skyblue;*/
+    float: left;
+    margin-left: 4%;
+    border-right: 2px solid rgba(255, 0, 0, 0.342);
+    padding-right: 2%;
+    width: 20%;
+}
+
+.horizontal {
+    border-top: 1px solid rgba(255, 0, 0, 0.342)
+}
+
+.dm {
+    display: flex;
+}
+
+.m {
+    margin-left: 2%;
+}
+
+.se {
+    margin-left: 2%;
+}
+
+.dlp {
+    margin-left: 2%;
+}
+
+.inmobiliario {
+    background-color: rgba(255, 0, 0, 0.438);
+    color: white;
+    border-style: none;
+    margin-left: 5%;
+}
+
+.legal {
+    background-color: purple;
+    color: white;
+    border-style: none;
+    margin-left: 5%;
+}
+
+.management {
+    background-color: rgba(255, 238, 0, 0.534);
+    color: white;
+    border-style: none;
+    margin-left: 5%;
+}
+
+.marcar {
+    margin-left: 35%;
+}
+
+.marcart {
+    margin-left: 25%;
+}
+
+.image {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.tittle {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 18px;
+    font-weight: 700;
+}
