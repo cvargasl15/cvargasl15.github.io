@@ -16,19 +16,25 @@ div {
 }
 
 .m {
+    color: rgb(248, 211, 0);
     margin-left: 2%;
+    font-weight: 700;
 }
 
 .se {
+    color: rgba(122, 3, 3, 0.829);
     margin-left: 2%;
+    font-weight: 700;
 }
 
 .dlp {
+    color: purple;
     margin-left: 2%;
+    font-weight: 700;
 }
 
 .inmobiliario {
-    background-color: rgba(255, 0, 0, 0.438);
+    background-color: rgba(122, 3, 3, 0.829);
     color: white;
     border-style: none;
     margin-left: 5%;
@@ -42,21 +48,28 @@ div {
 }
 
 .management {
-    background-color: rgba(255, 238, 0, 0.534);
+    background-color: rgb(248, 211, 0);
     color: white;
     border-style: none;
     margin-left: 5%;
 }
 
 .marcar {
+    margin-top: -3px;
     margin-left: 35%;
 }
 
 .marcart {
-    margin-left: 25%;
+    margin-top: -3px;
+    margin-left: 18%;
 }
 
 .image {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.slider {
     margin-left: 5%;
     margin-top: 2%;
 }

@@ -4,9 +4,25 @@ flag3 = 1;
 flag4 = 1;
 flagh = 1;
 
-function turismo() {
+const images = [
+    'images/1.jpg',
+    'images/2.jpg',
+    'images/3.jpg',
+    'images/4.jpg'
+];
 
+var i = 0;
+
+function turismo() {
+    var img = document.slider.src = images[i];
+    if (i < images.length - 1) {
+        i++;
+    } else {
+        i = 0;
+    }
+    setTimeout("turismo()", 1000);
 }
+
 
 
 function talento() {
